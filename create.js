@@ -1,8 +1,6 @@
 import * as uuid from 'uuid';
-import handler from "./libs/handler-lib";
+// import handler from "./libs/handler-lib";
 import dynamoDB from "./libs/dynamodb-libs";
-
-const dynamoDB = new AWS.DynamoDB.DocumentClient();
 
 export async function main(event, context){
 
